@@ -12,9 +12,6 @@
     "jquery": "^3.5.1"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "index.html"
-  },
   "author": "tikalena",
   "license": "ISC"
 }
