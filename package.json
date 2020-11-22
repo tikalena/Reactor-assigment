@@ -2,7 +2,7 @@
   "name": "warehouse-web-app-reaktor",
   "version": "1.0.0",
   "description": "warehouse web app",
-  "main": "index.js",
+  "main": "js.js",
   "engines": {
     "node": "14.x"
   },
@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "js.js"
+    "start": "index.html"
   },
   "author": "tikalena",
   "license": "ISC"
