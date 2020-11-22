@@ -1,0 +1,19 @@
+{
+  "name": "reaktor-assigment",
+  "version": "1.0.0",
+  "description": "warehouse web app",
+  "main": "index.js",
+  "dependencies": {
+    "datatables.net": "^1.10.22",
+    "datatables.net-dt": "^1.10.22",
+    "fomantic-ui": "^2.8.8-beta.64",
+    "gasparesganga-jquery-loading-overlay": "^2.1.7",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tikalena",
+  "license": "ISC"
+}

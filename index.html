@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warehouse Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="./semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="ui center aligned header">
+            <div class="content" style="font-size: 1.5em; padding-top: 20px"><i class="store alternate icon"></i>
+            Check warehouse availability
+            <div class="sub header">Choose Category</div>
+            </div>
+        </h1>
+    </header>
+
+<!--Category buttons-->
+    <div class="categories">
+        <div id="buttonToChoose">
+            <button type="button" id="btn" class="massive ui inverted black labeled icon button" style="width: 300px;" onclick="renderList('Accessories')"><i class="glasses icon"></i> Accessories</button>
+
+            <button type="button" class="btn massive ui inverted black labeled icon button" style="width: 300px;" onclick="renderList('Jackets')"><i class="user secret icon"></i>Jackets</button>
+
+            <button type="button" class="btn massive ui inverted black labeled icon button" style="width: 300px;" onclick="renderList('Shirts')"><i class="user tie icon"></i> Shirts</button>
+        </div>
+    </div>
+
+<!--Spinner until the product list displayed-->
+    <div class="ui active primary centered inline loader" id="spinner" style="display: none; margin-top: 20px;"></div>
+
+<!--Display products in the list-->
+    <h1 id="categoryHeader" class="ui center aligned header" style="font-size: 3em; padding-top: 20px"></h1>
+        <div class="list">
+
+        </div>
+
+<!--Product availability modal window-->
+    <div class="ui mini modal">
+        <div class="header" style="background: #1e77ba; color: white">Product Availability</div>
+            <div class="modal content"></div>
+        <div class="actions">
+            <div class="ui cancel primary button">Close</div>
+        </div>
+    </div>
+
+<script src="js.js"></script>
+</body>
+</html>
