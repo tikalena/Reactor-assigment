@@ -1,10 +1,11 @@
 {
-  "name": "reaktor-assigment",
+  "name": "warehouse-web-app-reaktor",
   "version": "1.0.0",
   "description": "warehouse web app",
-  "main": "index.js",
+  "main": "js.js",
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "6.x"
   },
   "dependencies": {
     "fomantic-ui": "^2.8.8-beta.64",
@@ -13,9 +14,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node js.js"
   },
   "author": "tikalena",
   "license": "ISC"
 }
-
