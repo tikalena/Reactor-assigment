@@ -1,5 +1,6 @@
 warehouse-web-app-reaktor
 
+# Reactor-assigment
 The assignment was to make an application that shows the multiple product list in three categories - accessories, jackets, shirts. 
 <br>
 The client can check product availability info from a single UI. 
